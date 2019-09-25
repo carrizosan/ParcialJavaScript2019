@@ -116,7 +116,7 @@ function sortClients() {
         });
     }
 
-    let thName = document.getElementById("Name");
+    let thName = document.getElementById("NameArrow");
     console.log(thName.classList);
     
     clients.asc ? thName.classList.replace("fa-sort-up", "fa-sort-down") : thName.classList.replace("fa-sort-down", "fa-sort-up") 
